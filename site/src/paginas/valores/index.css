@@ -1,0 +1,203 @@
+@font-face {
+    font-family: "Kumb-Sans";
+    src: url(../../../public/assets/font/Kumbh_Sans/KumbhSans-VariableFont_YOPQ\,wght.ttf);
+    }
+    
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.banner{
+    height: 70vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(../../../public/assets/image/bannerValoresS2.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    padding-left: 40px;
+    align-items: center;
+    color: white;
+    max-width: 100vw;
+    box-shadow: 0px 5px 5px rgb(213, 213, 213);
+}
+
+.txt-banner {
+    font-family: "Kumb-Sans";
+    font-weight: 700;
+    font-size: 35px;
+    color: white;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .txt-banner span {
+    display: inline-block;
+    opacity: 0;
+    transform: translateX(-30px);
+    animation: slideInLetter 0.6s ease forwards;
+  }
+  
+  
+  
+
+.logo{
+    height: 70px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A02323;
+    padding: 20px;
+}
+
+.titulo{
+    display: flex;
+    font-family: "Kumb-Sans";
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 6vh;
+
+    transform: translateY(30px);
+    animation: entrar 1.2s ease-out forwards;
+}
+
+.org-card{
+    max-width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    margin-top: 5%;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    color: black;
+    font-family: "Kumb-Sans";
+    font-size: 15px;
+    align-items: center;
+    width: 20%;
+    height: 90%;
+    background: rgba(217, 217, 217, 0.58);
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    user-select: none;
+  }
+  
+  .card:hover {
+    border: 1px solid black;
+    transform: scale(1.05);
+  }
+  
+  .card:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+  }
+
+  .img-1{
+    height: 50%;
+    width: 40%;
+  }
+  .img-2{
+    height: 50%;
+    width: 60%;  
+  }
+  .img-3{
+    height: 50%;
+    width: 50%;
+  }
+  .img-4{
+    height: 50%;
+    width: 50%;  
+  }
+  .footer{
+    margin-top: 10vh;
+    height: 20vh;
+    max-width: 100vw;
+    background-color: #2d2d2d;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+
+  @keyframes slideInLetter {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+
+  @keyframes entrar {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slideInLeft {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+    
+
+
+
+
+    .txt-banner span:nth-child(1)  { animation-delay: 0.05s; }
+.txt-banner span:nth-child(2)  { animation-delay: 0.10s; }
+.txt-banner span:nth-child(3)  { animation-delay: 0.15s; }
+.txt-banner span:nth-child(4)  { animation-delay: 0.20s; }
+.txt-banner span:nth-child(5)  { animation-delay: 0.25s; }
+.txt-banner span:nth-child(6)  { animation-delay: 0.30s; }
+.txt-banner span:nth-child(7)  { animation-delay: 0.35s; }
+.txt-banner span:nth-child(8)  { animation-delay: 0.40s; }
+.txt-banner span:nth-child(9)  { animation-delay: 0.45s; }
+.txt-banner span:nth-child(10) { animation-delay: 0.50s; }
+.txt-banner span:nth-child(11) { animation-delay: 0.55s; }
+.txt-banner span:nth-child(12) { animation-delay: 0.60s; }
+.txt-banner span:nth-child(13) { animation-delay: 0.65s; }
+.txt-banner span:nth-child(14) { animation-delay: 0.70s; }
+.txt-banner span:nth-child(15) { animation-delay: 0.75s; }
+.txt-banner span:nth-child(16) { animation-delay: 0.80s; }
+.txt-banner span:nth-child(17) { animation-delay: 0.85s; }
+.txt-banner span:nth-child(18) { animation-delay: 0.90s; }
+.txt-banner span:nth-child(19) { animation-delay: 0.95s; }
+.txt-banner span:nth-child(20) { animation-delay: 1.00s; }
+.txt-banner span:nth-child(21) { animation-delay: 1.05s; }
+.txt-banner span:nth-child(22) { animation-delay: 1.10s; }
+.txt-banner span:nth-child(23) { animation-delay: 1.15s; }
+.txt-banner span:nth-child(24) { animation-delay: 1.20s; }
+.txt-banner span:nth-child(25) { animation-delay: 1.25s; }
+.txt-banner span:nth-child(26) { animation-delay: 1.30s; }
+.txt-banner span:nth-child(27) { animation-delay: 1.35s; }
+.txt-banner span:nth-child(28) { animation-delay: 1.40s; }
+.txt-banner span:nth-child(29) { animation-delay: 1.45s; }
+.txt-banner span:nth-child(30) { animation-delay: 1.50s; }
+.txt-banner span:nth-child(31) { animation-delay: 1.55s; }
+.txt-banner span:nth-child(32) { animation-delay: 1.60s; }
+.txt-banner span:nth-child(33) { animation-delay: 1.65s; }
+.txt-banner span:nth-child(34) { animation-delay: 1.70s; }
+.txt-banner span:nth-child(35) { animation-delay: 1.75s; }
+.txt-banner span:nth-child(36) { animation-delay: 1.80s; }
+.txt-banner span:nth-child(37) { animation-delay: 1.85s; }
+.txt-banner span:nth-child(38) { animation-delay: 1.90s; }
+.txt-banner span:nth-child(39) { animation-delay: 1.95s; }
+.txt-banner span:nth-child(40) { animation-delay: 2.00s; }
+.txt-banner span:nth-child(41) { animation-delay: 2.05s; }
