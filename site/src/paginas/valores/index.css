@@ -47,11 +47,11 @@ body{
     margin-right: 10px;
 }
 .cabecalho{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #A02323;
-    padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #A02323;
+  padding: 20px;
 }
 
 .titulo{
